@@ -1,0 +1,1 @@
+savedcmd_/home/dal/first-driver/hello_driver.ko := ld -r -m elf_x86_64 -z noexecstack --no-warn-rwx-segments --build-id=sha1  -T scripts/module.lds -o /home/dal/first-driver/hello_driver.ko /home/dal/first-driver/hello_driver.o /home/dal/first-driver/hello_driver.mod.o
